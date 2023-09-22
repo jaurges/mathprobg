@@ -20,4 +20,53 @@ def func(n):
                 number_per_row = 2
                 for num in range(number_per_row):
                     calc.append(f"{random.randint(1, 11)}{random.randint(1, 11)}")
+            if complexity == "2":
+                digit_per_num = 3
+                number_per_row = 4
+                for num in range(number_per_row):
+                    calc.append(f"{random.randint(1, 11)}{random.randint(1, 11)}")
+            if complexity == "3":
+                digit_per_num = 4
+                number_per_row = 4
+                for num in range(number_per_row):
+                    calc.append(f"{random.randint(1, 11)}{random.randint(1, 11)}")
+            if complexity == "4":
+                digit_per_num = 5
+                number_per_row = 3
+                for num in range(number_per_row):
+                    calc.append(f"{random.randint(1, 11)}{random.randint(1, 11)}")
+            if complexity == "5":
+                digit_per_num = 6
+                number_per_row = 2
+                for num in range(number_per_row):
+                    calc.append(f"{random.randint(1, 11)}{random.randint(1, 11)}")
             string.append(" + ".join(calc))
+        if type_calcul == "soustraction":
+            digit_per_num = int
+            number_per_row = int
+            if complexity == "1":
+                digit_per_num = 2
+                number_per_row = 2
+                for num in range(number_per_row):
+                    calc.append(f"{random.randint(1, 11)}{random.randint(1, 11)}")
+            if complexity == "2":
+                digit_per_num = 3
+                number_per_row = 4
+                for num in range(number_per_row):
+                    calc.append(f"{random.randint(1, 11)}{random.randint(1, 11)}")
+            if complexity == "3":
+                digit_per_num = 4
+                number_per_row = 4
+                for num in range(number_per_row):
+                    calc.append(f"{random.randint(1, 11)}{random.randint(1, 11)}")
+            if complexity == "4":
+                digit_per_num = 5
+                number_per_row = 3
+                for num in range(number_per_row):
+                    calc.append(f"{random.randint(1, 11)}{random.randint(1, 11)}")
+            if complexity == "5":
+                digit_per_num = 6
+                number_per_row = 2
+                for num in range(number_per_row):
+                    calc.append(f"{random.randint(1, 11)}{random.randint(1, 11)}")
+            string.append(" - ".join(calc))
